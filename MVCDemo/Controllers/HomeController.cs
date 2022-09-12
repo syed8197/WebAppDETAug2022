@@ -1,5 +1,6 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using MVCDemo.Filters;
 using MVCDemo.Models;
 
 namespace MVCDemo.Controllers
@@ -25,7 +26,7 @@ namespace MVCDemo.Controllers
             ViewBag.Contact = contact;
             return View();
         }
-
+		[MyLog]
         public IActionResult Privacy()
 		{
 			return View();
