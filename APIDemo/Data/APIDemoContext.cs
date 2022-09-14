@@ -16,6 +16,6 @@ namespace APIDemo.Data
 
         public DbSet<APIDemo.Models.Users> Users { get; set; } = default!;
 
-        public DbSet<APIDemo.Models.ToDoItems>? ToDoItems { get; set; }
+        public DbSet<APIDemo.Models.TodoItem>? ToDoItems { get; set; }
     }
 }
