@@ -13,13 +13,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppClient", "Console
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoApi", "TodoApi\TodoApi.csproj", "{38CBA71B-02BE-4CEA-8AD0-DD261308C561}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank", "Bank\Bank.csproj", "{F700FE0A-6756-4215-8DDD-4EEDB2F4AC08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bank", "Bank\Bank.csproj", "{F700FE0A-6756-4215-8DDD-4EEDB2F4AC08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankTests", "BankTests\BankTests.csproj", "{36DBF31F-5A1C-48AA-9139-B6C326E2355E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankTests", "BankTests\BankTests.csproj", "{36DBF31F-5A1C-48AA-9139-B6C326E2355E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProjectPizza", "TestProjectPizza\TestProjectPizza.csproj", "{81C1C627-6164-4DFF-804C-9343A093F971}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProjectPizza", "TestProjectPizza\TestProjectPizza.csproj", "{81C1C627-6164-4DFF-804C-9343A093F971}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject_ClassLibPizza", "TestProject_ClassLibPizza\TestProject_ClassLibPizza.csproj", "{B40B90AE-4B27-4F0C-A640-B4E5C82ABC4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject_ClassLibPizza", "TestProject_ClassLibPizza\TestProject_ClassLibPizza.csproj", "{B40B90AE-4B27-4F0C-A640-B4E5C82ABC4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDD_Demo", "TDD_Demo\TDD_Demo.csproj", "{5DB13718-D3B3-4949-BA2E-9650909EC9AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Api", "Library.Api\Library.Api.csproj", "{DBF1A31A-DE36-462A-8EB5-E68118C6B7DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooksControllerTest", "BooksControllerTest\BooksControllerTest.csproj", "{83F3CEC3-CB92-4A44-96A9-26DB9D7CD70F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +69,18 @@ Global
 		{B40B90AE-4B27-4F0C-A640-B4E5C82ABC4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B40B90AE-4B27-4F0C-A640-B4E5C82ABC4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B40B90AE-4B27-4F0C-A640-B4E5C82ABC4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DB13718-D3B3-4949-BA2E-9650909EC9AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DB13718-D3B3-4949-BA2E-9650909EC9AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DB13718-D3B3-4949-BA2E-9650909EC9AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DB13718-D3B3-4949-BA2E-9650909EC9AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBF1A31A-DE36-462A-8EB5-E68118C6B7DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBF1A31A-DE36-462A-8EB5-E68118C6B7DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBF1A31A-DE36-462A-8EB5-E68118C6B7DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBF1A31A-DE36-462A-8EB5-E68118C6B7DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83F3CEC3-CB92-4A44-96A9-26DB9D7CD70F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83F3CEC3-CB92-4A44-96A9-26DB9D7CD70F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83F3CEC3-CB92-4A44-96A9-26DB9D7CD70F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83F3CEC3-CB92-4A44-96A9-26DB9D7CD70F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
